@@ -4,7 +4,42 @@ var typed = new Typed(".typing",{
     BackSpeed:100,
     loop:true
 })
-var header = document.getElementById("aside");
+var typed = new Typed(".typing1",{
+  strings:[" ","Web Designer", "Python Developer", "Content Writer"],
+  typeSpeed:100,
+  BackSpeed:100,
+  loop:true
+})
+const sections = document.querySelectorAll('section');
+const navLinks = document.querySelectorAll(".nav li a");
+
+window.addEventListener("scroll", () => {
+  let current = "";
+
+  sections.forEach((section) => {
+    const sectionTop = section.offsetTop;
+    const sectionHeight = section.clientHeight;
+
+    if (scrollY >= sectionTop - sectionHeight / 2) {
+      current = section.getAttribute('id');
+    }
+  });
+
+  navLinks.forEach((link) => {
+    link.parentElement.classList.remove('active');
+
+    if (link.getAttribute("href") === `#${current}`) {
+      link.parentElement.classList.add('active');
+      link.style.color = 'red';
+    }
+    else {
+      link.style.color = ''; // Reset text color for other links
+    }
+
+  });
+});
+
+// var header = document.getElementById("aside");
 
 // $('.asideh1').addClass("active");
 // var btns = header.getElementsByClassName("asideh");
@@ -18,7 +53,6 @@ var header = document.getElementById("aside");
 //   });
 // };
 
-const sections=document.querySelectorAll('section');
 const navLi= document.querySelectorAll("ul li a");
 window.addEventListener("scroll", ()=>{
   let current='';

@@ -300,6 +300,10 @@ h3.my-professsion
 {
   color: var(--skin-color);
 }
+.typing1
+{
+  color: var(--skin-color);
+}
 .home-info p {
   margin-bottom: 70px;
   font-size:20px;
@@ -315,12 +319,12 @@ h3.my-professsion
 {
   content: '';
   position: absolute;
-  height: 80px;
+  height: 80px; 
   width: 80px;
   border-bottom: 10px solid var(--skin-color);
   border-right: 10px solid var(--skin-color);
   right: 20px;
-  bottom:-40px;
+  bottom:-15px;
 
 }
 .home-img::before
@@ -332,7 +336,7 @@ h3.my-professsion
   border-left: 10px solid var(--skin-color);
   border-top: 10px solid var(--skin-color);
   left: 20px;
-  top:-40px;
+  top:-15px;
 
 }
 /*Image*/
