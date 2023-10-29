@@ -546,6 +546,15 @@ h3.my-professsion
   text-transform: capitalize;
   color: var(--text-black-900);
 }
+.h4.timeline-title
+{
+  font-weight: 700;
+  font-size: 11px;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+
+}
+
 .about .about-content .timeline .timeline-text
 {
   line-height: 25px;
@@ -662,6 +671,13 @@ h3.my-professsion
 }
 
 .contact .contact-info-item p
+{
+  font-size: 16px;
+  line-height: 25px;
+  color:var(--text-black-700);
+  font-weight: 400;
+}
+.contact .contact-info-item a
 {
   font-size: 16px;
   line-height: 25px;
