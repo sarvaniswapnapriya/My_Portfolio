@@ -72,5 +72,5 @@ app.post("/contact", async(req,res) => {
 })
 //server create
 app.listen(port,()=>{
-    console.log("server is up")
+    console.log("server is up") //doing some changes
 })
