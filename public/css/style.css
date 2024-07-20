@@ -325,7 +325,7 @@ h3.my-professsion
   border-bottom: 10px solid var(--skin-color);
   border-right: 10px solid var(--skin-color);
   right: 20px;
-  bottom:15px;
+  bottom:20px;
 
 }
 .home-img::before
@@ -776,20 +776,4 @@ h3.my-professsion
     flex: 0 0 100%;
     max-width: 100%;
   }
-}
-.blogs-socials {
-  padding: 50px 0;
-}
-
-.blog-item, .linkedin-posts {
-  margin-bottom: 20px;
-}
-
-.blog-item .icon, .linkedin-posts .icon {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-#linkedin-posts-container {
-  /* Add any specific styling for LinkedIn posts container here */
 }
