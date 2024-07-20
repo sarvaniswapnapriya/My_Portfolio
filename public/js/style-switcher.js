@@ -12,7 +12,7 @@ window.addEventListener("scroll",()=>{
 })
 /*color switcher*/
 const alternateStyles=document.querySelectorAll(".alternate-style");
-function setActiveStyle(color)
+function setActiveStyle(color)  
 {
     alternateStyles.forEach((style) =>
     {

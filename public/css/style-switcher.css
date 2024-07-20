@@ -37,11 +37,12 @@
 {
     line-height: 40px;
 }
-.style-switcher .style-switcher-toggler
-{
-    top: 0;
-    
-}
+.center-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
 .style-switcher .day-night
 {
      top: 55px;
