@@ -1,11 +1,11 @@
 var typed = new Typed(".typing",{
-    strings:[" ","Java Developer", "Data Analyst", "Content Writer"],
+    strings:["     ", "Backend Developer","Java Developer","Content Writer","Public Speaker"],
     typeSpeed:100,
     BackSpeed:100,
     loop:true
 })
 var typed = new Typed(".typing1",{
-  strings:[" ","Java", "Spring Boot", "MS Excel", "Elastic Search", "Kafka"],
+  strings:[" ","Java", "Spring Boot", "Docker", "Elastic Search", "Kafka" , "Python"],
   typeSpeed:100,
   BackSpeed:100,
   loop:true
